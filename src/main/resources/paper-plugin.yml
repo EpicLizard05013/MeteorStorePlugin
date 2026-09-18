@@ -1,5 +1,9 @@
 name: MeteorStorePlugin
 version: '1.0.0'
-main: me.meteor.store.MeteorStorePlugin
+main: com.meteorsmp.store.MeteorStorePlugin
 api-version: '1.21'
 description: Paper plugin for handling web store redemptions.
+commands:
+  redeem:
+    description: Redeem a web store code.
+    usage: /redeem <code>
