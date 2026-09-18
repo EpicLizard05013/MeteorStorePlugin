@@ -1,0 +1,8 @@
+name: MeteorStorePlugin
+version: 1.0.0
+main: com.meteorsmp.store.MeteorStorePlugin
+api-version: 1.20
+commands:
+  redeem:
+    description: Redeems a single-use store code.
+    usage: /redeem <code>
